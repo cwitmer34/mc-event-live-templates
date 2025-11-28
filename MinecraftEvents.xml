@@ -1,0 +1,542 @@
+<templateSet group="Minecraft Events">
+  <template name="onplayerjoin" value="@EventHandler&#10;public void onPlayerJoin(PlayerJoinEvent event) {&#10;    $END$&#10;}" description="Called when a player joins the server" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerquit" value="@EventHandler&#10;public void onPlayerQuit(PlayerQuitEvent event) {&#10;    $END$&#10;}" description="Called when a player leaves the server" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerlogin" value="@EventHandler&#10;public void onPlayerLogin(PlayerLoginEvent event) {&#10;    $END$&#10;}" description="Called when a player attempts to login" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayermove" value="@EventHandler&#10;public void onPlayerMove(PlayerMoveEvent event) {&#10;    $END$&#10;}" description="Called when a player moves" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerinteract" value="@EventHandler&#10;public void onPlayerInteract(PlayerInteractEvent event) {&#10;    $END$&#10;}" description="Called when a player interacts with an object or air" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerinteractentity" value="@EventHandler&#10;public void onPlayerInteractEntity(PlayerInteractEntityEvent event) {&#10;    $END$&#10;}" description="Called when a player right clicks an entity" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerchat" value="@EventHandler&#10;public void onPlayerChat(PlayerChatEvent event) {&#10;    $END$&#10;}" description="Called when a player sends a chat message" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onasyncplayerchat" value="@EventHandler&#10;public void onAsyncPlayerChat(AsyncPlayerChatEvent event) {&#10;    $END$&#10;}" description="Async version of PlayerChatEvent" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayercommandpreprocess" value="@EventHandler&#10;public void onPlayerCommandPreprocess(PlayerCommandPreprocessEvent event) {&#10;    $END$&#10;}" description="Called when a player runs a command" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerdeath" value="@EventHandler&#10;public void onPlayerDeath(PlayerDeathEvent event) {&#10;    $END$&#10;}" description="Called when a player dies" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerrespawn" value="@EventHandler&#10;public void onPlayerRespawn(PlayerRespawnEvent event) {&#10;    $END$&#10;}" description="Called when a player respawns" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerdropitem" value="@EventHandler&#10;public void onPlayerDropItem(PlayerDropItemEvent event) {&#10;    $END$&#10;}" description="Called when a player drops an item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerpickupitem" value="@EventHandler&#10;public void onPlayerPickupItem(PlayerPickupItemEvent event) {&#10;    $END$&#10;}" description="Called when a player picks up an item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayeritemheld" value="@EventHandler&#10;public void onPlayerItemHeld(PlayerItemHeldEvent event) {&#10;    $END$&#10;}" description="Called when a player changes their held item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayertogglesneak" value="@EventHandler&#10;public void onPlayerToggleSneak(PlayerToggleSneakEvent event) {&#10;    $END$&#10;}" description="Called when a player toggles sneak" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayertogglesprint" value="@EventHandler&#10;public void onPlayerToggleSprint(PlayerToggleSprintEvent event) {&#10;    $END$&#10;}" description="Called when a player toggles sprint" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerteleport" value="@EventHandler&#10;public void onPlayerTeleport(PlayerTeleportEvent event) {&#10;    $END$&#10;}" description="Called when a player teleports" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerkick" value="@EventHandler&#10;public void onPlayerKick(PlayerKickEvent event) {&#10;    $END$&#10;}" description="Called when a player is kicked from the server" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerbedenter" value="@EventHandler&#10;public void onPlayerBedEnter(PlayerBedEnterEvent event) {&#10;    $END$&#10;}" description="Called when a player enters a bed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerbedleave" value="@EventHandler&#10;public void onPlayerBedLeave(PlayerBedLeaveEvent event) {&#10;    $END$&#10;}" description="Called when a player leaves a bed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayergamemodechange" value="@EventHandler&#10;public void onPlayerGameModeChange(PlayerGameModeChangeEvent event) {&#10;    $END$&#10;}" description="Called when a player's game mode changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerexpchange" value="@EventHandler&#10;public void onPlayerExpChange(PlayerExpChangeEvent event) {&#10;    $END$&#10;}" description="Called when a player's exp changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerlevelchange" value="@EventHandler&#10;public void onPlayerLevelChange(PlayerLevelChangeEvent event) {&#10;    $END$&#10;}" description="Called when a player's level changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayeritemconsume" value="@EventHandler&#10;public void onPlayerItemConsume(PlayerItemConsumeEvent event) {&#10;    $END$&#10;}" description="Called when a player consumes an item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayeritemdamage" value="@EventHandler&#10;public void onPlayerItemDamage(PlayerItemDamageEvent event) {&#10;    $END$&#10;}" description="Called when a player's item takes damage" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerfish" value="@EventHandler&#10;public void onPlayerFish(PlayerFishEvent event) {&#10;    $END$&#10;}" description="Called when a player fishes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerbucketempty" value="@EventHandler&#10;public void onPlayerBucketEmpty(PlayerBucketEmptyEvent event) {&#10;    $END$&#10;}" description="Called when a player empties a bucket" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerbucketfill" value="@EventHandler&#10;public void onPlayerBucketFill(PlayerBucketFillEvent event) {&#10;    $END$&#10;}" description="Called when a player fills a bucket" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayereditbook" value="@EventHandler&#10;public void onPlayerEditBook(PlayerEditBookEvent event) {&#10;    $END$&#10;}" description="Called when a player edits a book" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerchangedworld" value="@EventHandler&#10;public void onPlayerChangedWorld(PlayerChangedWorldEvent event) {&#10;    $END$&#10;}" description="Called when a player switches to another world" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerportal" value="@EventHandler&#10;public void onPlayerPortal(PlayerPortalEvent event) {&#10;    $END$&#10;}" description="Called when a player enters a portal" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerresourcepackstatus" value="@EventHandler&#10;public void onPlayerResourcePackStatus(PlayerResourcePackStatusEvent event) {&#10;    $END$&#10;}" description="Called when a player's resource pack status changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerswaphanditems" value="@EventHandler&#10;public void onPlayerSwapHandItems(PlayerSwapHandItemsEvent event) {&#10;    $END$&#10;}" description="Called when a player swaps items between hands" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerarmorstandmanipulate" value="@EventHandler&#10;public void onPlayerArmorStandManipulate(PlayerArmorStandManipulateEvent event) {&#10;    $END$&#10;}" description="Called when a player manipulates an armor stand" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayerattemptpickupitem" value="@EventHandler&#10;public void onPlayerAttemptPickupItem(PlayerAttemptPickupItemEvent event) {&#10;    $END$&#10;}" description="Called when a player attempts to pick up an item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplayeradvancementdone" value="@EventHandler&#10;public void onPlayerAdvancementDone(PlayerAdvancementDoneEvent event) {&#10;    $END$&#10;}" description="Called when a player completes an advancement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockbreak" value="@EventHandler&#10;public void onBlockBreak(BlockBreakEvent event) {&#10;    $END$&#10;}" description="Called when a block is broken by a player" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockplace" value="@EventHandler&#10;public void onBlockPlace(BlockPlaceEvent event) {&#10;    $END$&#10;}" description="Called when a block is placed by a player" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockdamage" value="@EventHandler&#10;public void onBlockDamage(BlockDamageEvent event) {&#10;    $END$&#10;}" description="Called when a block is damaged by a player" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockignite" value="@EventHandler&#10;public void onBlockIgnite(BlockIgniteEvent event) {&#10;    $END$&#10;}" description="Called when a block is ignited" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockburn" value="@EventHandler&#10;public void onBlockBurn(BlockBurnEvent event) {&#10;    $END$&#10;}" description="Called when a block burns" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockexplode" value="@EventHandler&#10;public void onBlockExplode(BlockExplodeEvent event) {&#10;    $END$&#10;}" description="Called when a block explodes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockfade" value="@EventHandler&#10;public void onBlockFade(BlockFadeEvent event) {&#10;    $END$&#10;}" description="Called when a block fades, melts or disappears" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockform" value="@EventHandler&#10;public void onBlockForm(BlockFormEvent event) {&#10;    $END$&#10;}" description="Called when a block is formed or spreads" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockgrow" value="@EventHandler&#10;public void onBlockGrow(BlockGrowEvent event) {&#10;    $END$&#10;}" description="Called when a block grows naturally" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockspread" value="@EventHandler&#10;public void onBlockSpread(BlockSpreadEvent event) {&#10;    $END$&#10;}" description="Called when a block spreads" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockphysics" value="@EventHandler&#10;public void onBlockPhysics(BlockPhysicsEvent event) {&#10;    $END$&#10;}" description="Called when a block physics check is called" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockpistonextend" value="@EventHandler&#10;public void onBlockPistonExtend(BlockPistonExtendEvent event) {&#10;    $END$&#10;}" description="Called when a piston extends" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockpistonretract" value="@EventHandler&#10;public void onBlockPistonRetract(BlockPistonRetractEvent event) {&#10;    $END$&#10;}" description="Called when a piston retracts" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onblockredstone" value="@EventHandler&#10;public void onBlockRedstone(BlockRedstoneEvent event) {&#10;    $END$&#10;}" description="Called when a redstone current changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onleavesdecay" value="@EventHandler&#10;public void onLeavesDecay(LeavesDecayEvent event) {&#10;    $END$&#10;}" description="Called when leaves decay" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onsignchange" value="@EventHandler&#10;public void onSignChange(SignChangeEvent event) {&#10;    $END$&#10;}" description="Called when a sign is changed by a player" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitydamage" value="@EventHandler&#10;public void onEntityDamage(EntityDamageEvent event) {&#10;    $END$&#10;}" description="Called when an entity is damaged" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitydamagebyentity" value="@EventHandler&#10;public void onEntityDamageByEntity(EntityDamageByEntityEvent event) {&#10;    $END$&#10;}" description="Called when an entity is damaged by another entity" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitydeath" value="@EventHandler&#10;public void onEntityDeath(EntityDeathEvent event) {&#10;    $END$&#10;}" description="Called when an entity dies" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityspawn" value="@EventHandler&#10;public void onEntitySpawn(EntitySpawnEvent event) {&#10;    $END$&#10;}" description="Called when an entity is spawned" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitytarget" value="@EventHandler&#10;public void onEntityTarget(EntityTargetEvent event) {&#10;    $END$&#10;}" description="Called when an entity targets another entity" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitychangeblock" value="@EventHandler&#10;public void onEntityChangeBlock(EntityChangeBlockEvent event) {&#10;    $END$&#10;}" description="Called when an entity changes a block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityexplode" value="@EventHandler&#10;public void onEntityExplode(EntityExplodeEvent event) {&#10;    $END$&#10;}" description="Called when an entity explodes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityteleport" value="@EventHandler&#10;public void onEntityTeleport(EntityTeleportEvent event) {&#10;    $END$&#10;}" description="Called when an entity teleports" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitycombust" value="@EventHandler&#10;public void onEntityCombust(EntityCombustEvent event) {&#10;    $END$&#10;}" description="Called when an entity combusts" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityinteract" value="@EventHandler&#10;public void onEntityInteract(EntityInteractEvent event) {&#10;    $END$&#10;}" description="Called when an entity interacts with an object" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitypickupitem" value="@EventHandler&#10;public void onEntityPickupItem(EntityPickupItemEvent event) {&#10;    $END$&#10;}" description="Called when an entity picks up an item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityportal" value="@EventHandler&#10;public void onEntityPortal(EntityPortalEvent event) {&#10;    $END$&#10;}" description="Called when an entity attempts to enter a portal" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityregainhealth" value="@EventHandler&#10;public void onEntityRegainHealth(EntityRegainHealthEvent event) {&#10;    $END$&#10;}" description="Called when an entity regains health" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityshootbow" value="@EventHandler&#10;public void onEntityShootBow(EntityShootBowEvent event) {&#10;    $END$&#10;}" description="Called when a LivingEntity shoots a bow" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitytame" value="@EventHandler&#10;public void onEntityTame(EntityTameEvent event) {&#10;    $END$&#10;}" description="Called when an entity is tamed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentitybreed" value="@EventHandler&#10;public void onEntityBreed(EntityBreedEvent event) {&#10;    $END$&#10;}" description="Called when two entities breed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onprojectilehit" value="@EventHandler&#10;public void onProjectileHit(ProjectileHitEvent event) {&#10;    $END$&#10;}" description="Called when a projectile hits something" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onprojectilelaunch" value="@EventHandler&#10;public void onProjectileLaunch(ProjectileLaunchEvent event) {&#10;    $END$&#10;}" description="Called when a projectile is launched" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oncreaturespawn" value="@EventHandler&#10;public void onCreatureSpawn(CreatureSpawnEvent event) {&#10;    $END$&#10;}" description="Called when a creature is spawned into a world" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oncreeperpower" value="@EventHandler&#10;public void onCreeperPower(CreeperPowerEvent event) {&#10;    $END$&#10;}" description="Called when a Creeper is struck by lightning" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onentityportalenter" value="@EventHandler&#10;public void onEntityPortalEnter(EntityPortalEnterEvent event) {&#10;    $END$&#10;}" description="Called when an entity enters a portal" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onfoodlevelchange" value="@EventHandler&#10;public void onFoodLevelChange(FoodLevelChangeEvent event) {&#10;    $END$&#10;}" description="Called when a player's food level changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onpigzap" value="@EventHandler&#10;public void onPigZap(PigZapEvent event) {&#10;    $END$&#10;}" description="Called when a pig is zapped" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onsheepdye" value="@EventHandler&#10;public void onSheepDye(SheepDyeEvent event) {&#10;    $END$&#10;}" description="Called when a sheep's wool is dyed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onslimesplit" value="@EventHandler&#10;public void onSlimeSplit(SlimeSplitEvent event) {&#10;    $END$&#10;}" description="Called when a slime splits" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oninventoryclick" value="@EventHandler&#10;public void onInventoryClick(InventoryClickEvent event) {&#10;    $END$&#10;}" description="Called when a player clicks in an inventory" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oninventoryclose" value="@EventHandler&#10;public void onInventoryClose(InventoryCloseEvent event) {&#10;    $END$&#10;}" description="Called when an inventory is closed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oninventoryopen" value="@EventHandler&#10;public void onInventoryOpen(InventoryOpenEvent event) {&#10;    $END$&#10;}" description="Called when an inventory is opened" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oninventorydrag" value="@EventHandler&#10;public void onInventoryDrag(InventoryDragEvent event) {&#10;    $END$&#10;}" description="Called when a player drags an item in an inventory" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oninventorymoveitem" value="@EventHandler&#10;public void onInventoryMoveItem(InventoryMoveItemEvent event) {&#10;    $END$&#10;}" description="Called when an item is moved from one inventory to another" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oninventorypickupitem" value="@EventHandler&#10;public void onInventoryPickupItem(InventoryPickupItemEvent event) {&#10;    $END$&#10;}" description="Called when a hopper picks up an item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onprepareitemcraft" value="@EventHandler&#10;public void onPrepareItemCraft(PrepareItemCraftEvent event) {&#10;    $END$&#10;}" description="Called when an item is about to be crafted" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="oncraftitem" value="@EventHandler&#10;public void onCraftItem(CraftItemEvent event) {&#10;    $END$&#10;}" description="Called when an item is crafted" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onprepareanvil" value="@EventHandler&#10;public void onPrepareAnvil(PrepareAnvilEvent event) {&#10;    $END$&#10;}" description="Called when an item is placed in an anvil" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onfurnaceburn" value="@EventHandler&#10;public void onFurnaceBurn(FurnaceBurnEvent event) {&#10;    $END$&#10;}" description="Called when an item is used as fuel in a furnace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onfurnacesmelt" value="@EventHandler&#10;public void onFurnaceSmelt(FurnaceSmeltEvent event) {&#10;    $END$&#10;}" description="Called when an item is smelted in a furnace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onbrew" value="@EventHandler&#10;public void onBrew(BrewEvent event) {&#10;    $END$&#10;}" description="Called when the brewing of the contents inside the Brewing Stand is complete" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onserverload" value="@EventHandler&#10;public void onServerLoad(ServerLoadEvent event) {&#10;    $END$&#10;}" description="Called when the server is loaded" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onpluginenable" value="@EventHandler&#10;public void onPluginEnable(PluginEnableEvent event) {&#10;    $END$&#10;}" description="Called when a plugin is enabled" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onplugindisable" value="@EventHandler&#10;public void onPluginDisable(PluginDisableEvent event) {&#10;    $END$&#10;}" description="Called when a plugin is disabled" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onworldinit" value="@EventHandler&#10;public void onWorldInit(WorldInitEvent event) {&#10;    $END$&#10;}" description="Called when a world is initialized" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onworldload" value="@EventHandler&#10;public void onWorldLoad(WorldLoadEvent event) {&#10;    $END$&#10;}" description="Called when a world is loaded" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onworldunload" value="@EventHandler&#10;public void onWorldUnload(WorldUnloadEvent event) {&#10;    $END$&#10;}" description="Called when a world is unloaded" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onworldsave" value="@EventHandler&#10;public void onWorldSave(WorldSaveEvent event) {&#10;    $END$&#10;}" description="Called when a world is saved" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onchunkload" value="@EventHandler&#10;public void onChunkLoad(ChunkLoadEvent event) {&#10;    $END$&#10;}" description="Called when a chunk is loaded" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onchunkunload" value="@EventHandler&#10;public void onChunkUnload(ChunkUnloadEvent event) {&#10;    $END$&#10;}" description="Called when a chunk is unloaded" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onstructuregrow" value="@EventHandler&#10;public void onStructureGrow(StructureGrowEvent event) {&#10;    $END$&#10;}" description="Called when an organic structure attempts to grow" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onweatherchange" value="@EventHandler&#10;public void onWeatherChange(WeatherChangeEvent event) {&#10;    $END$&#10;}" description="Called when the weather changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onthunderchange" value="@EventHandler&#10;public void onThunderChange(ThunderChangeEvent event) {&#10;    $END$&#10;}" description="Called when the thunder state changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onspawnchange" value="@EventHandler&#10;public void onSpawnChange(SpawnChangeEvent event) {&#10;    $END$&#10;}" description="Called when the spawn point of the world changes" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onvehicleenter" value="@EventHandler&#10;public void onVehicleEnter(VehicleEnterEvent event) {&#10;    $END$&#10;}" description="Called when an entity enters a vehicle" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onvehicleexit" value="@EventHandler&#10;public void onVehicleExit(VehicleExitEvent event) {&#10;    $END$&#10;}" description="Called when an entity exits a vehicle" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onvehiclemove" value="@EventHandler&#10;public void onVehicleMove(VehicleMoveEvent event) {&#10;    $END$&#10;}" description="Called when a vehicle moves" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onvehicledamage" value="@EventHandler&#10;public void onVehicleDamage(VehicleDamageEvent event) {&#10;    $END$&#10;}" description="Called when a vehicle is damaged" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onvehicledestroy" value="@EventHandler&#10;public void onVehicleDestroy(VehicleDestroyEvent event) {&#10;    $END$&#10;}" description="Called when a vehicle is destroyed" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+  <template name="onvehiclecreate" value="@EventHandler&#10;public void onVehicleCreate(VehicleCreateEvent event) {&#10;    $END$&#10;}" description="Called when a vehicle is created" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true"/>
+    </context>
+  </template>
+</templateSet>
